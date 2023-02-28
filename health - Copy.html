@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>World Of Dogs</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="popper.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script>
+		$(document).ready(function(){
+  		$('[data-toggle="popover"]').popover();      
+		});
+	</script>
+
+	<style type="text/css">
+		#plan:hover{
+			text-decoration: underline;
+			color:#ff471a; 
+		}
+
+		#zoom:hover{
+ 			-webkit-transform: scaleX(-1);
+  			transform: scaleX(-1);
+ 		}
+	</style>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-5 col-sm-5 col-md-6 col-lg-6 col-xl-6">
+					<img src="logo.jpg" class="img-fluid mx-auto" height="70" width="170">
+				</div>
+
+				<div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+					<form class="form-inline" style="margin-top: 35px; margin-left: 60px;">
+						<div class="input-group">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search....">
+							<button class="btn btn-success" type="submit">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<nav class="navbar navbar-expand-md bg-secondary navbar-dark sticky-top">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item"><a class="nav-link"  href="index.html" style="width: 110px; text-align: center;">HOME</a></li><img src="p.jpg" height="40px" width="40px">
+			<li class="nav-item active" style="border-bottom: 3px solid #77b300; font-size: 17px;"><a class="nav-link"  href="health.html" style="width: 160px; text-align: center;">HEALTH</a>
+			
+			
+				<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16"><a href="health.html">Fruits</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16"><a href="health.html">Vegetables</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16"><a href="health.html">Other Food</a></li>
+</ul>
+			
+			
+			
+			</li>
+								<img src="p.jpg" height="40px" width="40px">
+								
+					<li class="nav-item"><a class="nav-link"  href="behaviour.html" style="width: 160px; text-align: center;">BEHAVIOUR</a></li> <img src="p.jpg" height="40px" width="40px">
+					<li class="nav-item"><a class="nav-link"  href="lifestyle.html" style="width: 130px; text-align: center;">LIFESTYLE</a></li><img src="p.jpg" height="40px" width="40px">
+					
+					<li class="nav-item"><a class="nav-link"  href="Contact.html" style="width: 110px; text-align: center;">CONTACT</a></li><img src="p.jpg" height="40px" width="40px">
+				</ul>
+			</div>	
+		</div>
+	</nav>
+
+
+	<section>
+
+		<div class="container">
+			<div class="cont">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<img src="dogdoctor.jpg" height="320" width="720" class="img-thumbnail img-fluid mx-auto d-block"><br>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<p style="font-size: 29px; line-height: 28px; text-align: center;color:olive"><b></b> <b><i>7 Things you can do to keep your pet healthy</i>
+						</p>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<p style="font-size: 20px; line-height: 28px; text-align: justify;">
+						
+
+						 1.Keep your pet at a healthy weight.<br><br>
+2.Exercise your pet.<br><br>
+3.Feed your pet a balanced, nutritious diet.<br><br>
+4.Have your veterinarian examine your pet at least once a year to make sure your<br><br> 5.pet is healthy and to help detect problems earlier.<br><br>
+6.Vaccinate your pet against potentially deadly diseases such as distemper, parvo, panleukopenia and rabies.<br><br>
+7.Keep your pet free of parasites (fleas and ticks, heartworm, etc.) – consult your veterinarian for the best product for your pet.
+Spay or neuter your pet.
+						</p><br>
+					</div>	
+				</div>	 
+			</div>			
+		</div><br>
+
+		<div class="container">
+			<div class="cont2" id="WeightLossSection1">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<h1 style="text-align: center;color:olive">- Foods You Should Keep Far Away From Your Dog -</h1>
+					</div>
+				</div><br>
+				
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<div class="DietPlan" style="border:3px solid  #77b300; border-radius: 20px; padding: 15px 5px 5px 5px;">
+							<a href="health.html"><h3 id="plan" style="text-align: center; color:  black;"></h3></a>
+							<a href="health.html"><img id="zoom" src="dogcakee.jpg" class="img-thumbnail img-fluid mx-auto d-block" height="250" width="650" style="border-radius: 20px;"></a>
+							
+							<p style="text-align: justify; font-size: 18px; padding: 8px 10px 5px 10px;"><i>1.<mark style="color:olive">Chocolate.</mark> Chocolate contains a very toxic substance called methylxanthines, which are stimulants that can stop a dog’s metabolic process. Even just a little bit of chocolate, especially dark chocolate, can cause diarrhea and vomiting. A large amount can cause seizures, irregular heart function, and even death.<br><br>
+2.<mark style="color:olive">Avocados.</mark> Every part of the fruit has a strain of fatty acid called persin, which is toxic to your pup in large quantities. Avocado may be good on nearly everything, but it’s not good on your dog’s puppy chow.<br><br>
+3.<mark style="color:olive">Onions and Garlic.</mark> Staples in the human diet, these beloved veggies can cause anemia in your dog by killing her red blood cells. Even a little bit can be detrimental to her health.<br><br>
+4.<mark style="color:olive">Grapes and Raisins.</mark> Eating this seemingly innocuous fruit (in either the fresh or dried form) can cause kidney failure in dogs. Yikes!<br><br>
+5.<mark style="color:olive">Milk and other Dairy Products.</mark> While dogs can drink milk from their mothers, any other type of dairy (cow, goat, etc.) could make them sick. There are sugars and fatty acids that dogs don’t have the enzymes to digest properly.<br><br>
+6.<mark style="color:olive">Macadamia Nuts.</mark> While it’s still unknown just what it is about these nuts that is poisonous to dogs, the fact is, they are. Your pup may be eyeing your macadamia nut cookie, but don’t give in to his puppy-dog eyes. He’ll thank you later—well, maybe.<br><br>
+7.<mark style="color:olive">Sugary foods and drinks.</mark> Speaking of cookies, don’t let your dog eat anything high in processed sugars. The same thing will happen to her that happens to people when they ingest too much sugar: weight gain, tooth decay, and even diabetes.<br><br>
+8.<mark style="color:olive">Caffeine.</mark> It contains a stimulant that is toxic to dogs. While you may enjoy a morning cup of joe, your dog should stick to tried-and-true water.<br><br>
+9.<mark style="color:olive">Yeast dough. </mark>If eaten raw, this can rise and ferment in your dog’s stomach. The fermentation can cause alcohol poisoning, and the rising will stretch your pup’s stomach to the point of pain. So the next time you make a homemade pizza, avoid giving those leftover dough bits to your pooch!<br><br>
+10.<mark style="color:olive">Salt.</mark> Too much salt can lead to dehydration and even sodium ion poisoning. While a little bit of salt is fine, be aware of how much your dog ingests, to keep the quantity at a minimum.
+ <a style="font-size: 19px;" href="health.html"><b><u>Read More >></u></b></a></i></p>
+						</div>
+					</div>
+
+					
+				</div>
+			</div>
+		</div><br><br><br>
+		
+		<div class="container">
+			<div>
+			<div id="WeightLossSection2">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<h1 style="text-align: center;color:olive">- Healthy Foods For Dog -</h1>
+					</div>
+				</div><br>
+				
+				<div class="row">	
+					<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+						<div style="border:3px solid  #77b300; border-radius: 20px; " class="bg-light">						
+						<h3 style="text-align: center; border-bottom: 3px solid  #77b300; border-radius: 10px; padding-top: 10px; padding-bottom: 10px;color:olive ">FRUITS </h3>
+							<img id="zoom" src="watermelen.jpg" class="img-thumbnail img-fluid mx-auto d-block" height="250" width="350" style="border-radius: 20px;">
+							<ol style="padding-left: 100px; font-size: 19px;">
+								<li>Banana</li>
+								<li>Apple</li>
+								<li>Oranges</li>
+								<li>Strawberries</li>
+								<li>Blueberries</li>
+								<li>Mango</li>
+								<li>Papaya</li>
+								<li>Pears</li>
+								<li>Watermelon</li>
+								<li>Pineapple</li>
+								
+							</ol>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+						<div style="border:3px solid  #77b300; border-radius: 20px;" class="bg-light">
+							<h3 style="text-align: center; border-bottom: 3px solid  #77b300; border-radius: 20px; padding-top: 10px; padding-bottom: 10px;color:olive ">VEGETABLES </h3>
+							
+							<img id="zoom" src="carrott.jpg" class="img-thumbnail img-fluid mx-auto d-block" height="250" width="350" style="border-radius: 20px;">
+							
+							<ol style="padding-left: 100px; font-size: 19px;">
+								<li>Spinach</li>
+								<li>Broccoli</li>
+								<li>Green Beans</li>
+								<li>Carrots</li>
+								<li>Zucchini</li>
+								<li>Cucumbers</li>
+								<li>Beetroot</li>
+								<li>Pumpkin</li>
+								<li>Sweet potato</li>
+								<li>Peas</li>	
+							</ol>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+						<div style="border:3px solid  #77b300; border-radius: 20px;" class="bg-light">
+							<h3 style="text-align: center; border-bottom: 3px solid  #77b300; border-radius: 20px; padding-top: 10px; padding-bottom: 10px;color:olive ">OTHER FOOD </h3>
+							
+							<img id="zoom" src="pedi.jpg" class="img-thumbnail img-fluid mx-auto d-block" height="350" width="350" style="border-radius: 20px;">
+							
+							<ol style="padding-left: 100px; font-size: 19px;">
+								<li>Egg White</li>
+								<li>Boiled Chiken</li>
+								<li>Paneer</li>
+								<li>Cheez</li>
+								<li>Yogurt</li>
+								<li>Dog Food</li>
+								<li>White Rice</li>
+								<li>Dog Biskuit</li>
+								<li>Fishs</li>
+								<li>Pulses</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>	
+	</section><br>
+
+	<footer class="alert alert-secondary" role="alert">
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<h4>@ 2023 World Of Dogs. All Copy Rights Reserved. </h4>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
